@@ -1,0 +1,15 @@
+:root {
+    --primary: #003580;
+    --btn: #0071c2;
+    --white: #ffffff;
+    --yellow: #febb02;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   
+}
+

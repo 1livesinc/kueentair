@@ -1,0 +1,25 @@
+
+
+.featuredItem{
+    position: relative;
+   padding: 7px;
+}
+
+
+ .featuredImg{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+
+}
+ 
+.featuredTitles{
+    position: absolute;
+    bottom: 10%;
+    left: 20px;
+    font-size: 0.4rem;
+    color: darkblue;
+}
+
+

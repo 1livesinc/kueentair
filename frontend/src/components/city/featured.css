@@ -1,0 +1,23 @@
+.featured__cities{
+margin: 0 auto;
+max-width: 80vw;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(254px, 1fr));
+gap: 5px;
+padding: 5px;
+}
+
+
+ .cities{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+
+}
+ 
+.properties {
+    
+    font-size: 14px;
+
+}

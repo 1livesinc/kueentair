@@ -1,0 +1,140 @@
+
+
+
+.stays__wrapper{
+    display: flex;
+    justify-content:center ;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 7px;
+    
+   
+}
+
+.stays__wrapper > .rooms__travelers{
+    flex: 1 0 17em;
+    background-color: #8d9db6;
+}
+.stays__wrapper > .going__to{
+    flex: 1 0 17em;
+    background-color: #8d9db6;
+}
+.stays__wrapper > .checkinout__main{
+    flex: 1 0 17em;
+    background-color: #8d9db6;
+}
+.stays__wrapper > .search{
+    display: flex;
+    justify-content: center;
+    flex: 1 1 17em;
+}
+
+
+.rooms__travelers{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+border: 1px solid #003580;
+border-radius: 5px;
+}
+
+
+.options__selector{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 1000;
+    
+}
+
+.options__items{
+
+    position: absolute;
+    width: 267px ;
+    height: 167px ;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    z-index: 1001;
+}
+
+
+
+
+
+
+.checkin__checkout{
+    position: relative;
+    cursor: pointer;
+   
+   
+
+}
+.checkin__checkout>input{
+   
+    cursor: pointer;
+    
+
+}
+
+
+.destination{
+
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #003580;
+    border-radius: 5px;
+    
+}
+
+
+
+.inputBox{
+    width: 100%;
+    font-size: 12px;
+    border: none;
+    outline: none;
+  
+}
+
+.checkinout__main{
+    position: relative;
+    border-radius: 5px;
+}
+
+
+.calendarElement{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    border: 1px solid #ccc;
+    z-index: 999;
+}
+
+.decrease__Button{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border: 1px solid #0071c2;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    
+}
+
+.decrease__Button:disabled{
+cursor:not-allowed;
+}
+
+.store__Options{
+    text-align: center;
+}
+
